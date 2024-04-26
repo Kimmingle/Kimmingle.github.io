@@ -1,0 +1,32 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-slider{
+    width: 80%;
+    height: 80%;
+    background-size: 100% 100%; 
+    box-shadow: 20px 20px 10px black;
+    animation: slider 10s linear infinite;
+}
+
+@keyframes slider{
+    0%{
+    background-image: url("images/스크린샷 2024-04-22 105726.png") ;
+    }
+    25%{
+    background-image: url("images/스크린샷 2024-04-25 000003.png") ;
+    }
+    50%{
+    background-image: url("images/스크린샷 2024-04-25 011511.png") ;
+    }
+    75%{
+    background-image: url("images/스크린샷 2024-04-25 011627.png");
+    }
+    100%{
+    background-image: url("images/스크린샷 2024-04-22 105347.png") ;
+    }
+}
+
